@@ -7,6 +7,11 @@ module.exports = {
         fredoka: ["Fredoka One"],
         nunito: ["Nunito"],
       },
+      backgroundImage: {
+        "kawaki-boruto": "url('./src/assets/kawaki_boruto.png')",
+        "pink-wave": "url('./src/assets/wave-haikei.svg')",
+        "black-wave": "url('./src/assets/wave-haikei-pink-black.svg')",
+      },
     },
   },
   plugins: [],
