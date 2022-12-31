@@ -8,9 +8,12 @@ export default function Topic() {
   return (
     <section
       id="topic"
-      className="min-h-screen px-2 md:px-8 pt-4 2xl:pt-32 bg-gray-800 w-full bg-contain bg-no-repeat md:bg-cover"
+      className="min-h-screen px-2 md:px-8 pt-4 2xl:pt-32 bg-gray-800 w-full bg-contain bg-no-repeat md:bg-cover pb-28"
     >
-      <h2 className="text-3xl md:text-5xl 2xl:text-7xl text-pink-700 text-center font-fredoka md:mt-20">
+      <h2
+        className="text-3xl md:text-5xl 2xl:text-7xl text-pink-700 text-center font-fredoka md:mt-20"
+        data-aos="zoom-in"
+      >
         Konten <span className="text-yellow-300">Borutoaja.id</span>
       </h2>
 

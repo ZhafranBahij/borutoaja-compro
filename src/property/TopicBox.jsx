@@ -15,7 +15,7 @@ export default function TopicBox({
 
   return (
     <div className={boxClassName}>
-      <div className="w-1/2 justify-center mx-auto">
+      <div className="w-1/2 justify-center mx-auto" data-aos="zoom-in-right">
         <h3 className="text-xl md:text-3xl 2xl:text-5xl text-pink-700 font-fredoka text-center">
           {title} <span className="text-yellow-300">{yellowTitle}</span>{" "}
         </h3>
@@ -25,7 +25,11 @@ export default function TopicBox({
           className="brightness-110 w-3/5 2xl:w-4/5 mt-6 mb-6 mx-auto"
         />
       </div>
-      <p className="max-w-full w-1/2 text-md md:text-lg 2xl:text-xl font-nunito mx-auto items-center my-auto text-pink-700">
+      <p
+        className="max-w-full w-1/2 text-md md:text-lg 2xl:text-xl font-nunito mx-auto items-center my-auto text-pink-300"
+        data-aos="zoom-in-left"
+        data-aos-delay="500"
+      >
         {description}
       </p>
     </div>
