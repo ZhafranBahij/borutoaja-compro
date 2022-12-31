@@ -25,7 +25,7 @@ export default function About() {
             alt="Konohamaru"
             className="brightness-110 w-3/5 2xl:w-4/5 mt-6 mb-6 mx-auto"
           />
-          <p className="max-w-full w-3/5 2xl:w-4/5 text-sm md:text-lg 2xl:text-xl font-nunito mx-auto  text-gray-300">
+          <p className="max-w-full w-3/5 2xl:w-4/5 text-sm md:text-lg 2xl:text-xl font-nunito mx-auto hover:shadow-lg hover:shadow-yellow-300/80 ring-2 ring-yellow-300/70 px-4 py-2 rounded-lg text-gray-300">
             Didirikan pada{" "}
             <span className="text-yellow-300">
               awal Februari 2021 oleh beberapa pemuda
@@ -50,7 +50,7 @@ export default function About() {
             alt="Sasuke"
             className="brightness-110 w-3/5 2xl:w-4/5 mt-6 mb-6 mx-auto"
           />
-          <p className="max-w-full w-3/5 2xl:w-4/5 text-sm md:text-lg 2xl:text-xl font-nunito mx-auto text-gray-300">
+          <p className="max-w-full w-3/5 2xl:w-4/5 text-sm md:text-lg 2xl:text-xl font-nunito mx-auto text-gray-300 hover:shadow-lg hover:shadow-yellow-300/80 ring-2 ring-yellow-300/70 rounded-lg px-4 py-2">
             Sejauh ini ada 2 admin yaitu{" "}
             <span className="text-yellow-300">Admin Denki</span> sang{" "}
             <span className="text-yellow-300">content writer</span> (intinya

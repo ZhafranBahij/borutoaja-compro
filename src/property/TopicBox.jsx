@@ -26,7 +26,7 @@ export default function TopicBox({
         />
       </div>
       <p
-        className="max-w-full w-1/2 text-md md:text-lg 2xl:text-xl font-nunito mx-auto items-center my-auto text-pink-300"
+        className="max-w-full w-1/2 text-md md:text-lg 2xl:text-xl font-nunito mx-auto items-center my-auto hover:shadow-lg hover:shadow-pink-300/80 text-pink-300 ring-2 ring-pink-300/70 rounded-lg px-4 py-2"
         data-aos="zoom-in-left"
         data-aos-delay="500"
       >

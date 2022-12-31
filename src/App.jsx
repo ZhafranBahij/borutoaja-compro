@@ -20,6 +20,16 @@ function App() {
       <About />
       <Topic />
 
+      <footer className="bg-pink-700 text-yellow-300 px-8 py-3 ring-2 ring-yellow-300">
+        Created by{" "}
+        <a
+          href="https://www.instagram.com/borutoaja.id/"
+          className="hover:text-yellow-300"
+          target="_blank"
+        >
+          @borutoaja.id
+        </a>{" "}
+      </footer>
       {/* <section className="min-h-screen"></section> */}
     </div>
   );
