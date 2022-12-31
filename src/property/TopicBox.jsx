@@ -22,7 +22,7 @@ export default function TopicBox({
         <img
           src={image}
           alt={title}
-          className="brightness-110 w-3/5 2xl:w-4/5 mt-6 mb-6 mx-auto"
+          className="brightness-110 w-full md:w-3/5 2xl:w-4/5 mt-6 mb-6 mx-auto"
         />
       </div>
       <p
