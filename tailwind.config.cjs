@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: {
         "kawaki-boruto": "url('./src/assets/kawaki_boruto.png')",
         "pink-wave": "url('./src/assets/wave-haikei.svg')",
-        "black-wave": "url('./src/assets/wave-haikei-pink-black.svg')",
+        "black-wave": "url('./src/assets/pink-black-wave.svg')",
       },
     },
   },

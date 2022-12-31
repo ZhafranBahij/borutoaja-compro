@@ -24,7 +24,7 @@ export default function Navbar() {
               <a href="#about">About</a>
             </li>
             <li className="hover:text-yellow-300">
-              <a href="#topic">Topic</a>
+              <a href="#topic">Content</a>
             </li>
           </ul>
         </div>

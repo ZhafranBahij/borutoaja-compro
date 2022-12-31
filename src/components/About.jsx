@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen pt-28 2xl:pt-32 bg-pink-700 w-full "
+      className="min-h-screen pt-4 2xl:pt-32 bg-pink-700 w-full bg-black-wave bg-cover pb-28 md:pb-0"
     >
       <h2 className="text-3xl md:text-5xl 2xl:text-7xl text-gray-800 text-center font-fredoka">
         Tentang <span className="text-yellow-300">Borutoaja.id</span>
@@ -25,8 +25,8 @@ export default function About() {
           <p className="max-w-full w-3/5 2xl:w-4/5 text-sm md:text-lg 2xl:text-xl font-nunito mx-auto">
             Didirikan pada{" "}
             <span className="text-yellow-300">
-              awal Februari 2021 oleh 5 pemuda
-            </span>
+              awal Februari 2021 oleh beberapa pemuda
+            </span>{" "}
             dengan alasan ingin berkonten sambil mencari sampingan.{" "}
             <span className="text-yellow-300">Membahas tentang Boruto</span>{" "}
             karena kala itu lagi ramai.
